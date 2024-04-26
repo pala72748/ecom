@@ -26,7 +26,7 @@ const Header = () => {
             <div className='text-center py-4 bg-[#fbf8f6] text-[14px]'>
                 Shop wholesale online from over 1,00,000 brands. <a className='underline' href="">Sign up</a>
             </div>
-            <div className='w-[95vw] mx-auto flex justify-between w-full h-12 items-center mt-3'>
+            <div className='w-[94vw] mx-auto flex justify-between w-full h-12 items-center mt-3'>
                 <div className='flex w-7/12 gap-3'>
                     <div className='flex gap-5 relative w-full'>
                         <Img src={logo} alt={"logo"} style={"w-100"} />
