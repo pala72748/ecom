@@ -10,7 +10,7 @@ const Pagination = () => {
 
     return (
         <>
-            <div className='container mx-auto my-6 flex items-center gap-10'>
+            <div className='w-[70vw] mx-auto my-6 flex items-center gap-10'>
                 <div className='w-2/12'>
                     <Button label={"Previous"} style={"px-10 border border-black"} />
                 </div>

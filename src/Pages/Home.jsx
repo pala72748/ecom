@@ -3,6 +3,9 @@ import Header from '../Components/Header/Header';
 import Breadcrumb from '../Components/Breadcrumb/Breadcrumb';
 import Sidebar from '../Components/Sidebar/Sidebar';
 import Pagination from '../Components/Pagination/Pagination';
+import Brand from '../Components/Brand/Brand';
+import Tab from '../Components/Tab/Tab';
+import Footer from '../Components/Footer/Footer';
 
 
 export const Home = () => {
@@ -22,6 +25,11 @@ export const Home = () => {
             <div className='border-y'>
                 <Pagination />
             </div>
+            <div>
+                <Brand />
+            </div>
+            <Tab />
+            <Footer />
         </>
     )
 }
